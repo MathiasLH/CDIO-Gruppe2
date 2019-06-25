@@ -95,7 +95,7 @@ public class Robot
         Motor.A.setSpeed(speed);
         Motor.B.setSpeed(speed);
         System.out.println("Turned " + degrees + " degrees");
-        int  angle = (int) (degrees * 5.077);
+        int  angle = (int) (degrees * 5.05);
         Motor.B.rotate(-angle, true);
         Motor.A.rotate(angle, false);
     }

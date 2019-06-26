@@ -1,6 +1,4 @@
-import lejos.hardware.Sound;
 import lejos.hardware.motor.Motor;
-import lejos.utility.Delay;
 
 /*
 Motor A er robotten venstre larvefod.
